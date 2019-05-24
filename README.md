@@ -1,0 +1,2 @@
+# EncrypNativeResourceDemo
+iOS如何加密本地资源文件，比如plist
