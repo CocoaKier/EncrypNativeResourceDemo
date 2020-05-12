@@ -13,5 +13,3 @@
 4、支持多种格式。理论上支持所有的资源文件格式，包括但不限于plist、html、txt、jpg、png等。
 
 5、安全。采用AES加密，相对比较安全。
-
-跟多信息，请查看我的博客：https://www.jianshu.com/p/64c8458d2a3f
