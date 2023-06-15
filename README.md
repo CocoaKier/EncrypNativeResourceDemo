@@ -13,3 +13,8 @@
 4、支持多种格式。理论上支持所有的资源文件格式，包括但不限于plist、html、txt、jpg、png等。
 
 5、安全。采用AES加密，相对比较安全。
+
+## v1.1版本 2023.6.15更新（修复了Xcode14解密失败的问题）
+1.弃用了RNOpenSSLCryptor库，改为原生的方式实现了一个轻量的CCOpenSSLHelper解密类
+2.openssl脚本改为通过key（密钥）和iv（初始向量）方式加密，以前是通过pass密码加密
+3.Xcode脚本引擎改为 /bin/bash，以前是 /bin/sh

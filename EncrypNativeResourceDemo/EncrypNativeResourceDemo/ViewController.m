@@ -7,11 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "RNOpenSSLDecryptor.h"
 #import <AudioToolbox/AudioToolbox.h>
+#import "CCOpenSSLHelper.h"
 
 #define MAIN_BUNDLE_FILE_PATH(fileName) [[NSBundle mainBundle] pathForResource:fileName ofType:nil]     //!< 获取mainBundle中文件路径,fileName带后缀
-#define RESOURCE_PASS_WORD @"fwe&*^123213"                                                              //!< 资源文件加密password,这里的密码必须和shell中的密码一致
+
+#define PASS_WORD @"fwe&*^123213"
 
 @interface ViewController ()
 
@@ -60,7 +61,7 @@
     }
     NSData *data = [[NSData alloc] initWithContentsOfFile:filePath];
     NSError *error;
-    NSData *dataDecrypted = [RNOpenSSLDecryptor decryptData:data withSettings:kRNCryptorAES256Settings password:RESOURCE_PASS_WORD error:&error];
+    NSData *dataDecrypted = [CCOpenSSLHelper decryptData:data password:PASS_WORD];
     if ([fileType isEqualToString:@"plist"]) {
         id plist = [NSPropertyListSerialization propertyListWithData:dataDecrypted options:(NSPropertyListImmutable) format:nil error:&error];
         return plist;

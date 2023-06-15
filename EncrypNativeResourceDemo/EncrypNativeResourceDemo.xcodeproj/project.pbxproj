@@ -7,22 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75B73E962A3AB15100E45AD7 /* NSData+AES256Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B73E942A3AB15100E45AD7 /* NSData+AES256Encryption.m */; };
+		75B73E9E2A3B01DC00E45AD7 /* CCOpenSSLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B73E9D2A3B01DC00E45AD7 /* CCOpenSSLHelper.m */; };
 		EB58B96E229694A400F60BFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB58B96D229694A400F60BFA /* AppDelegate.m */; };
 		EB58B971229694A400F60BFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB58B970229694A400F60BFA /* ViewController.m */; };
 		EB58B974229694A400F60BFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB58B972229694A400F60BFA /* Main.storyboard */; };
 		EB58B976229694AC00F60BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB58B975229694AC00F60BFA /* Assets.xcassets */; };
 		EB58B979229694AC00F60BFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB58B977229694AC00F60BFA /* LaunchScreen.storyboard */; };
 		EB58B97C229694AC00F60BFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB58B97B229694AC00F60BFA /* main.m */; };
-		EB58B9A22296A72E00F60BFA /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EB58B9942296A72E00F60BFA /* RNCryptor.m */; };
-		EB58B9A32296A72E00F60BFA /* RNOpenSSLCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EB58B99A2296A72E00F60BFA /* RNOpenSSLCryptor.m */; };
-		EB58B9A42296A72E00F60BFA /* RNOpenSSLEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EB58B99C2296A72E00F60BFA /* RNOpenSSLEncryptor.m */; };
-		EB58B9A52296A72E00F60BFA /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EB58B99D2296A72E00F60BFA /* RNDecryptor.m */; };
-		EB58B9A62296A72E00F60BFA /* RNOpenSSLDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EB58B99E2296A72E00F60BFA /* RNOpenSSLDecryptor.m */; };
-		EB58B9A72296A72E00F60BFA /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EB58B99F2296A72E00F60BFA /* RNEncryptor.m */; };
-		EB58B9A82296A72E00F60BFA /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EB58B9A02296A72E00F60BFA /* RNCryptorEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75B73E942A3AB15100E45AD7 /* NSData+AES256Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256Encryption.m"; sourceTree = "<group>"; };
+		75B73E952A3AB15100E45AD7 /* NSData+AES256Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256Encryption.h"; sourceTree = "<group>"; };
+		75B73E9C2A3B01DC00E45AD7 /* CCOpenSSLHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCOpenSSLHelper.h; sourceTree = "<group>"; };
+		75B73E9D2A3B01DC00E45AD7 /* CCOpenSSLHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCOpenSSLHelper.m; sourceTree = "<group>"; };
 		EB58B969229694A400F60BFA /* EncrypNativeResourceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncrypNativeResourceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB58B96C229694A400F60BFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB58B96D229694A400F60BFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,22 +33,6 @@
 		EB58B97A229694AC00F60BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB58B97B229694AC00F60BFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB58B98E2296A17500F60BFA /* myPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = myPlist.plist; path = EncrypNativeResourceDemo/myPlist.plist; sourceTree = SOURCE_ROOT; };
-		EB58B9922296A72E00F60BFA /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
-		EB58B9932296A72E00F60BFA /* RNOpenSSLEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNOpenSSLEncryptor.h; sourceTree = "<group>"; };
-		EB58B9942296A72E00F60BFA /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
-		EB58B9952296A72E00F60BFA /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
-		EB58B9962296A72E00F60BFA /* RNCryptor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-Prefix.pch"; sourceTree = "<group>"; };
-		EB58B9972296A72E00F60BFA /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
-		EB58B9982296A72E00F60BFA /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
-		EB58B9992296A72E00F60BFA /* RNOpenSSLDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNOpenSSLDecryptor.h; sourceTree = "<group>"; };
-		EB58B99A2296A72E00F60BFA /* RNOpenSSLCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNOpenSSLCryptor.m; sourceTree = "<group>"; };
-		EB58B99B2296A72E00F60BFA /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
-		EB58B99C2296A72E00F60BFA /* RNOpenSSLEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNOpenSSLEncryptor.m; sourceTree = "<group>"; };
-		EB58B99D2296A72E00F60BFA /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
-		EB58B99E2296A72E00F60BFA /* RNOpenSSLDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNOpenSSLDecryptor.m; sourceTree = "<group>"; };
-		EB58B99F2296A72E00F60BFA /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
-		EB58B9A02296A72E00F60BFA /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
-		EB58B9A12296A72E00F60BFA /* RNOpenSSLCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNOpenSSLCryptor.h; sourceTree = "<group>"; };
 		EB58B9A92296AA9B00F60BFA /* myImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myImage.jpg; sourceTree = "<group>"; };
 		EB58B9AB2296ADD700F60BFA /* baidu.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = baidu.html; sourceTree = "<group>"; };
 		EB58B9AC2296AECC00F60BFA /* button.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button.mp3; sourceTree = "<group>"; };
@@ -66,11 +49,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75B73E932A3AB14900E45AD7 /* CCOpenSSLHelper */ = {
+			isa = PBXGroup;
+			children = (
+				75B73E952A3AB15100E45AD7 /* NSData+AES256Encryption.h */,
+				75B73E942A3AB15100E45AD7 /* NSData+AES256Encryption.m */,
+				75B73E9C2A3B01DC00E45AD7 /* CCOpenSSLHelper.h */,
+				75B73E9D2A3B01DC00E45AD7 /* CCOpenSSLHelper.m */,
+			);
+			path = CCOpenSSLHelper;
+			sourceTree = "<group>";
+		};
+		75B73E992A3AFCDD00E45AD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EB58B960229694A400F60BFA = {
 			isa = PBXGroup;
 			children = (
+				75B73E932A3AB14900E45AD7 /* CCOpenSSLHelper */,
 				EB58B96B229694A400F60BFA /* EncrypNativeResourceDemo */,
 				EB58B96A229694A400F60BFA /* Products */,
+				75B73E992A3AFCDD00E45AD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,7 +88,6 @@
 		EB58B96B229694A400F60BFA /* EncrypNativeResourceDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EB58B9912296A72E00F60BFA /* RNCryptor */,
 				EB58B96C229694A400F60BFA /* AppDelegate.h */,
 				EB58B96D229694A400F60BFA /* AppDelegate.m */,
 				EB58B96F229694A400F60BFA /* ViewController.h */,
@@ -101,29 +103,6 @@
 				EB58B97B229694AC00F60BFA /* main.m */,
 			);
 			path = EncrypNativeResourceDemo;
-			sourceTree = "<group>";
-		};
-		EB58B9912296A72E00F60BFA /* RNCryptor */ = {
-			isa = PBXGroup;
-			children = (
-				EB58B9962296A72E00F60BFA /* RNCryptor-Prefix.pch */,
-				EB58B99B2296A72E00F60BFA /* RNCryptor.h */,
-				EB58B9942296A72E00F60BFA /* RNCryptor.m */,
-				EB58B9952296A72E00F60BFA /* RNCryptor+Private.h */,
-				EB58B9972296A72E00F60BFA /* RNCryptorEngine.h */,
-				EB58B9A02296A72E00F60BFA /* RNCryptorEngine.m */,
-				EB58B9922296A72E00F60BFA /* RNDecryptor.h */,
-				EB58B99D2296A72E00F60BFA /* RNDecryptor.m */,
-				EB58B9982296A72E00F60BFA /* RNEncryptor.h */,
-				EB58B99F2296A72E00F60BFA /* RNEncryptor.m */,
-				EB58B9A12296A72E00F60BFA /* RNOpenSSLCryptor.h */,
-				EB58B99A2296A72E00F60BFA /* RNOpenSSLCryptor.m */,
-				EB58B9992296A72E00F60BFA /* RNOpenSSLDecryptor.h */,
-				EB58B99E2296A72E00F60BFA /* RNOpenSSLDecryptor.m */,
-				EB58B9932296A72E00F60BFA /* RNOpenSSLEncryptor.h */,
-				EB58B99C2296A72E00F60BFA /* RNOpenSSLEncryptor.m */,
-			);
-			path = RNCryptor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,8 +186,8 @@
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "password=\"fwe&*^123213\"   #注意，这里的密码要和解密密码一致\nopenssl enc -e -aes-256-cbc -in EncrypNativeResourceDemo/myPlist.plist -out $TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/myPlist -pass pass:$password\nopenssl enc -e -aes-256-cbc -in EncrypNativeResourceDemo/myImage.jpg -out $TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/myImage -pass pass:$password\nopenssl enc -e -aes-256-cbc -in EncrypNativeResourceDemo/baidu.html -out $TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/baidu -pass pass:$password\nopenssl enc -e -aes-256-cbc -in EncrypNativeResourceDemo/button.mp3 -out $TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/button -pass pass:$password\n\n\n";
+			shellPath = /bin/bash;
+			shellScript = "#password需要和代码中保持一致\npassword=\"fwe&*^123213\"\n\n#根据password，利用sha257和md5，生成密钥key和初始向量iv\nkey=`echo -n $password | shasum -a 256 | awk -F' ' '{print $1}' | tr 'a-z' 'A-Z'`\niv=`md5 -s $password | awk -F'=' '{print $2}' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' | tr 'a-z' 'A-Z'`\n\n#每个需要加密的文件都写在这里\nopenssl enc -e -aes-256-cbc -K $key -iv $iv -nosalt -in EncrypNativeResourceDemo/myPlist.plist -out $TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/myPlist \nopenssl enc -e -aes-256-cbc -K $key -iv $iv -nosalt -in EncrypNativeResourceDemo/myImage.jpg -out $TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/myImage\nopenssl enc -e -aes-256-cbc -K $key -iv $iv -nosalt -in EncrypNativeResourceDemo/baidu.html -out $TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/baidu\nopenssl enc -e -aes-256-cbc -K $key -iv $iv -nosalt -in EncrypNativeResourceDemo/button.mp3 -out $TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/button\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -217,16 +196,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB58B9A22296A72E00F60BFA /* RNCryptor.m in Sources */,
-				EB58B9A32296A72E00F60BFA /* RNOpenSSLCryptor.m in Sources */,
+				75B73E962A3AB15100E45AD7 /* NSData+AES256Encryption.m in Sources */,
 				EB58B971229694A400F60BFA /* ViewController.m in Sources */,
-				EB58B9A52296A72E00F60BFA /* RNDecryptor.m in Sources */,
-				EB58B9A72296A72E00F60BFA /* RNEncryptor.m in Sources */,
-				EB58B9A82296A72E00F60BFA /* RNCryptorEngine.m in Sources */,
 				EB58B97C229694AC00F60BFA /* main.m in Sources */,
-				EB58B9A42296A72E00F60BFA /* RNOpenSSLEncryptor.m in Sources */,
 				EB58B96E229694A400F60BFA /* AppDelegate.m in Sources */,
-				EB58B9A62296A72E00F60BFA /* RNOpenSSLDecryptor.m in Sources */,
+				75B73E9E2A3B01DC00E45AD7 /* CCOpenSSLHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,16 +343,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 8B5LJ6JKG5;
+				CURRENT_PROJECT_VERSION = 2;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 5YVM33RH8D;
 				INFOPLIST_FILE = EncrypNativeResourceDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cocoa.haha123;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haha123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = sdk_wild;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = wanzhao_wild;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -388,15 +364,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				INFOPLIST_FILE = EncrypNativeResourceDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = cocoa.haha123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
